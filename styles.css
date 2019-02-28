@@ -104,10 +104,30 @@ header nav li:last-child {
 	
 	header nav ul {
 	font-size: 16px;
-}
+	}
 	
 	header h2 {
 		margin-bottom: 15px;
+	}
+}
+
+@media(max-width: 400px) {
+	header nav ul {
+	font-size: 14px;
+	}
+	
+	header nav li {
+	margin: 0 5.5px;
+	}
+}
+
+@media(max-width: 359px) {
+	header nav ul {
+	font-size: 13px;
+	}
+	
+	header nav li {
+	margin: 0 2.5px;
 	}
 }
 
@@ -366,6 +386,22 @@ QUOTES
 }
 
 @media(max-width: 1000px) {
+	#hero-quotes .quote {
+		font-size: 18px;
+		padding: 0 20px;
+	}
+	
+	#hero-quotes .heroq {
+		font-size: 14px;
+	}
+}
+
+@media(max-width: 400px) {
+	#hero-quotes .hero-symbols {
+	width: 100%;
+	height: auto;
+}
+	
 	#hero-quotes .quote {
 		font-size: 18px;
 		padding: 0 20px;
